@@ -1,0 +1,655 @@
+# Logfile created on 2017-01-14 23:08:36 +0100 by logger.rb/54362
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:08:36 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [532e5960] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [532e5960] Command: /usr/bin/env mkdir -p /tmp
+  INFO [532e5960] Finished in 0.689 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [50bf2bdd] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [50bf2bdd] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [50bf2bdd] Finished in 0.576 seconds with exit status 0 (successful).
+  INFO [113610de] Running /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git as root@bartlecki.pl
+ DEBUG [113610de] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:11:05 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a0ad3a12] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [a0ad3a12] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a0ad3a12] Finished in 0.616 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [52d6340d] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [52d6340d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [52d6340d] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [ade8db61] Running /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git as root@bartlecki.pl
+ DEBUG [ade8db61] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:11:50 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b2e678ef] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [b2e678ef] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b2e678ef] Finished in 0.640 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [f208b118] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [f208b118] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [f208b118] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [49a7cdc8] Running /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git as root@bartlecki.pl
+ DEBUG [49a7cdc8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:17:56 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b8bbd6d6] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [b8bbd6d6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b8bbd6d6] Finished in 0.632 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [0ba4ea1c] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [0ba4ea1c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [0ba4ea1c] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [286b08d3] Running /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git as root@bartlecki.pl
+ DEBUG [286b08d3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git )
+ DEBUG [286b08d3] 	ssh: connect to host example.com port 22: Network is unreachable
+ DEBUG [286b08d3] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:21:31 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8b95cee3] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [8b95cee3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8b95cee3] Finished in 0.613 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [3c8692b9] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [3c8692b9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [3c8692b9] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [57a3130e] Running /usr/bin/env git ls-remote --heads  as root@bartlecki.pl
+ DEBUG [57a3130e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads  )
+ DEBUG [57a3130e] 	fatal: No remote configured to list refs from.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:24:30 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [51cc9869] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [51cc9869] Command: /usr/bin/env mkdir -p /tmp
+  INFO [51cc9869] Finished in 0.698 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [6d03fe97] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [6d03fe97] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [6d03fe97] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [f0e41d2b] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [f0e41d2b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [f0e41d2b] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [f0e41d2b] 	Permission denied (publickey).
+ DEBUG [f0e41d2b] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:25:06 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [41a020f8] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [41a020f8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [41a020f8] Finished in 0.629 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [c1079a7a] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [c1079a7a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [c1079a7a] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [67d84818] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [67d84818] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [67d84818] 	Permission denied (publickey).
+ DEBUG [67d84818] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:26:53 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ec40b632] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [ec40b632] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ec40b632] Finished in 0.625 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [584161d3] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [584161d3] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [584161d3] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [0bb926a1] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [0bb926a1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [0bb926a1] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [0bb926a1] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [0bb926a1] Finished in 1.734 seconds with exit status 0 (successful).
+  INFO [e3c5031b] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [e3c5031b] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [e3c5031b] Finished in 0.072 seconds with exit status 0 (successful).
+ ERROR You do not have any host machines defined in your capfile. Try eg: server 'host.example.com', user:youruser, roles: %w{host}
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:27:43 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2cc6b3a8] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [2cc6b3a8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2cc6b3a8] Finished in 0.617 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [8af22e0a] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [8af22e0a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [8af22e0a] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [ecdead41] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [ecdead41] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [ecdead41] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [ecdead41] Finished in 1.759 seconds with exit status 0 (successful).
+  INFO [4a494a1b] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [4a494a1b] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [4a494a1b] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [f89681eb] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [f89681eb] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [f89681eb] Finished in 0.089 seconds with exit status 0 (successful).
+ ERROR You do not have any host machines defined in your capfile. Try eg: server 'host.example.com', user:youruser, roles: %w{host}
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:28:10 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b074cd16] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [b074cd16] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b074cd16] Finished in 0.632 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [5e0e3785] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [5e0e3785] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [5e0e3785] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [62f7b168] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [62f7b168] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [62f7b168] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [62f7b168] Finished in 1.760 seconds with exit status 0 (successful).
+  INFO [3cb652ca] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [3cb652ca] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [3cb652ca] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [3c57de8b] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [3c57de8b] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [3c57de8b] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [b6cecb27] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [b6cecb27] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [b6cecb27] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [e3b04116] Running [ -f /var/www/twitter_elixir/shared/config/prod.exs ] as root@bartlecki.pl
+ DEBUG [e3b04116] Command: [ -f /var/www/twitter_elixir/shared/config/prod.exs ]
+ DEBUG [e3b04116] Finished in 0.098 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/twitter_elixir/shared/config/prod.exs does not exist on bartlecki.pl
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:28:47 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c4cece56] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [c4cece56] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c4cece56] Finished in 0.616 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [0feda339] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [0feda339] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [0feda339] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [506d5f7c] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [506d5f7c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [506d5f7c] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [506d5f7c] Finished in 1.826 seconds with exit status 0 (successful).
+  INFO [fed4763a] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [fed4763a] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [fed4763a] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [6ed832ca] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [6ed832ca] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [6ed832ca] Finished in 0.079 seconds with exit status 0 (successful).
+ ERROR You do not have any host machines defined in your capfile. Try eg: server 'host.example.com', user:youruser, roles: %w{host}
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:30:14 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c5caa9fe] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [c5caa9fe] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e0e8ba10] Running /usr/bin/env #<StringIO:0x007fd7253e5db0> /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [e0e8ba10] Command: /usr/bin/env #<StringIO:0x007fd7253e5db0> /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [f07bedf2] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [f07bedf2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [0616bcfe] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [0616bcfe] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+  INFO [fff3088c] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [fff3088c] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [f3a4c6bd] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [f3a4c6bd] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+ ERROR You do not have any host machines defined in your capfile. Try eg: server 'host.example.com', user:youruser, roles: %w{host}
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:31:23 +0100 cap prod deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:32:10 +0100 cap prod deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:34:06 +0100 cap prod deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:34:30 +0100 cap prod deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [fc1db53d] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [fc1db53d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [fc1db53d] Finished in 0.640 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [b5d536de] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [b5d536de] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [b5d536de] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [598990af] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [598990af] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [598990af] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [598990af] Finished in 1.769 seconds with exit status 0 (successful).
+  INFO [5261308b] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [5261308b] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [5261308b] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [cb5ed246] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [cb5ed246] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [cb5ed246] Finished in 0.081 seconds with exit status 0 (successful).
+ ERROR You do not have any host machines defined in your capfile. Try eg: server 'host.example.com', user:youruser, roles: %w{host}
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:35:28 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a27d3d79] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [a27d3d79] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a27d3d79] Finished in 0.668 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [2e4f038a] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [2e4f038a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [2e4f038a] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [3cd9d0b3] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [3cd9d0b3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [3cd9d0b3] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [3cd9d0b3] Finished in 1.822 seconds with exit status 0 (successful).
+  INFO [01ca51da] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [01ca51da] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [01ca51da] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [2a5c63a6] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [2a5c63a6] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [2a5c63a6] Finished in 0.074 seconds with exit status 0 (successful).
+ ERROR You do not have any host machines defined in your capfile. Try eg: server 'host.example.com', user:youruser, roles: %w{host}
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:36:56 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [083556c6] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [083556c6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [083556c6] Finished in 0.627 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [4a468b99] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [4a468b99] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [4a468b99] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [edd0e17c] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [edd0e17c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [edd0e17c] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [edd0e17c] Finished in 1.743 seconds with exit status 0 (successful).
+  INFO [dcab794a] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [dcab794a] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [dcab794a] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [ebe736a8] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [ebe736a8] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [ebe736a8] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [224c4c3c] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [224c4c3c] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [224c4c3c] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [4d1d0fbc] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [4d1d0fbc] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [4d1d0fbc] Finished in 0.083 seconds with exit status 0 (successful).
+ ERROR You do not have any host machines defined in your capfile. Try eg: server 'host.example.com', user:youruser, roles: %w{host}
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:37:26 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bf55234d] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [bf55234d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bf55234d] Finished in 0.664 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [64035a82] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [64035a82] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [64035a82] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [13f4d699] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [13f4d699] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [13f4d699] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [13f4d699] Finished in 1.849 seconds with exit status 0 (successful).
+  INFO [aac1f9c6] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [aac1f9c6] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [aac1f9c6] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [0427858a] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [0427858a] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [0427858a] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [538630f7] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [538630f7] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [538630f7] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [fd2b242c] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [fd2b242c] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [fd2b242c] Finished in 0.106 seconds with exit status 0 (successful).
+ ERROR You do not have any port mappings defined in your capfile. Try eg: set :ports, {11111=>80}
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:37:50 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e0338f75] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [e0338f75] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e0338f75] Finished in 0.577 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [7645dd8d] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [7645dd8d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [7645dd8d] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [4babf116] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [4babf116] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [4babf116] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [4babf116] Finished in 1.759 seconds with exit status 0 (successful).
+  INFO [b9289ff1] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [b9289ff1] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [b9289ff1] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [885d6f97] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [885d6f97] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [885d6f97] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [c1290471] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [c1290471] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [c1290471] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [bb0dc712] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [bb0dc712] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [bb0dc712] Finished in 0.073 seconds with exit status 0 (successful).
+ ERROR You do not have a docker namespace variable defined in your capfile. Try eg: set :namespace, yourname
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:39:20 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d345f677] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [d345f677] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d345f677] Finished in 0.601 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [b9c6d298] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [b9c6d298] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [b9c6d298] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [46f3519a] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [46f3519a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [46f3519a] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [46f3519a] Finished in 1.778 seconds with exit status 0 (successful).
+  INFO [26cdd1c3] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [26cdd1c3] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [26cdd1c3] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [38276507] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [38276507] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [38276507] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [bebcb970] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [bebcb970] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [bebcb970] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [dc446da6] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [dc446da6] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [dc446da6] Finished in 0.074 seconds with exit status 0 (successful).
+ ERROR You do not have an application password defined in your capfile. Try eg: set :password, secret1234
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:42:04 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [494e578f] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [494e578f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [494e578f] Finished in 0.666 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [d92ae97c] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [d92ae97c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [d92ae97c] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [6ea9cb2b] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [6ea9cb2b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [6ea9cb2b] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [6ea9cb2b] Finished in 1.796 seconds with exit status 0 (successful).
+  INFO [60c799fc] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [60c799fc] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [60c799fc] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [c10eb651] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [c10eb651] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [c10eb651] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [f871239d] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [f871239d] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [f871239d] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [619b7c0a] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [619b7c0a] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [619b7c0a] Finished in 0.095 seconds with exit status 0 (successful).
+ ERROR You need to have a Dockerfile setup in the root of your project
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:44:57 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4bc212e1] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [4bc212e1] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4bc212e1] Finished in 0.596 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [3d632853] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [3d632853] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [3d632853] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [bab6588c] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [bab6588c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [bab6588c] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [bab6588c] Finished in 1.858 seconds with exit status 0 (successful).
+  INFO [9dc8be54] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [9dc8be54] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [9dc8be54] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [5bd19e53] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [5bd19e53] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [5bd19e53] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [3c01613b] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [3c01613b] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [3c01613b] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [fa19b1ca] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [fa19b1ca] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [fa19b1ca] Finished in 0.089 seconds with exit status 0 (successful).
+ ERROR You need to have a Dockerfile setup in the root of your project
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:45:36 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4eb0c965] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [4eb0c965] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4eb0c965] Finished in 0.654 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [697c995f] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [697c995f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [697c995f] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [9aae6378] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [9aae6378] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [9aae6378] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [9aae6378] Finished in 1.817 seconds with exit status 0 (successful).
+  INFO [ba38aacf] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [ba38aacf] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [ba38aacf] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [55d32c94] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [55d32c94] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [55d32c94] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [1935d69b] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [1935d69b] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [1935d69b] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [1c5513ee] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [1c5513ee] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [1c5513ee] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [487d6e7c] Running git ls-files Dockerfile as bartoszlecki@localhost
+ DEBUG [487d6e7c] Command: git ls-files Dockerfile
+ DEBUG [487d6e7c] Finished in 0.012 seconds with exit status 0 (successful).
+ ERROR You need to have a Dockerfile commited into the root of your project. Try using: git add Dockerfile and then git commit
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:46:08 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [14b266a7] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [14b266a7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [14b266a7] Finished in 0.628 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [72df240f] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [72df240f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [72df240f] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [57aca7fc] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [57aca7fc] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [57aca7fc] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [57aca7fc] Finished in 1.796 seconds with exit status 0 (successful).
+  INFO [5a6cf899] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [5a6cf899] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [5a6cf899] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [3d46524e] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [3d46524e] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [3d46524e] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [03f7e7ea] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [03f7e7ea] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [03f7e7ea] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [99ff2a4f] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [99ff2a4f] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [99ff2a4f] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [67674bdd] Running git ls-files Dockerfile as bartoszlecki@localhost
+ DEBUG [67674bdd] Command: git ls-files Dockerfile
+ DEBUG [67674bdd] 	Dockerfile
+ DEBUG [67674bdd] Finished in 0.008 seconds with exit status 0 (successful).
+ DEBUG [daca34b1] Running [ -f /var/www/twitter_elixir/current/REVISION ] as root@bartlecki.pl
+ DEBUG [daca34b1] Command: [ -f /var/www/twitter_elixir/current/REVISION ]
+ DEBUG [daca34b1] Finished in 0.069 seconds with exit status 1 (failed).
+ DEBUG [f4cdacc4] Running [ -f /var/www/twitter_elixir/repo/HEAD ] as root@bartlecki.pl
+ DEBUG [f4cdacc4] Command: [ -f /var/www/twitter_elixir/repo/HEAD ]
+ DEBUG [f4cdacc4] Finished in 0.084 seconds with exit status 1 (failed).
+ DEBUG [e54cd3c0] Running if test ! -d /var/www/twitter_elixir; then echo "Directory does not exist '/var/www/twitter_elixir'" 1>&2; false; fi as root@bartlecki.pl
+ DEBUG [e54cd3c0] Command: if test ! -d /var/www/twitter_elixir; then echo "Directory does not exist '/var/www/twitter_elixir'" 1>&2; false; fi
+ DEBUG [e54cd3c0] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [2720297c] Running /usr/bin/env git clone --mirror git@github.com:azranel/cap-deploy-test.git /var/www/twitter_elixir/repo as root@bartlecki.pl
+ DEBUG [2720297c] Command: cd /var/www/twitter_elixir && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git clone --mirror git@github.com:azranel/cap-deploy-test.git /var/www/twitter_elixir/repo )
+ DEBUG [2720297c] 	Cloning into bare repository '/var/www/twitter_elixir/repo'...
+  INFO [2720297c] Finished in 1.541 seconds with exit status 0 (successful).
+ DEBUG [b018c2e5] Running if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi as root@bartlecki.pl
+ DEBUG [b018c2e5] Command: if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi
+ DEBUG [b018c2e5] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [98df6a7d] Running /usr/bin/env git remote update --prune as root@bartlecki.pl
+ DEBUG [98df6a7d] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [98df6a7d] 	Fetching origin
+  INFO [98df6a7d] Finished in 1.273 seconds with exit status 0 (successful).
+ DEBUG [eadd4319] Running if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi as root@bartlecki.pl
+ DEBUG [eadd4319] Command: if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi
+ DEBUG [eadd4319] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [9ffadf07] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/releases/20170114224611 as root@bartlecki.pl
+ DEBUG [9ffadf07] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env mkdir -p /var/www/twitter_elixir/releases/20170114224611 )
+  INFO [9ffadf07] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [6ca177cc] Running /usr/bin/env git archive prod-deployment | /usr/bin/env tar -x -f - -C /var/www/twitter_elixir/releases/20170114224611 as root@bartlecki.pl
+ DEBUG [6ca177cc] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git archive prod-deployment | /usr/bin/env tar -x -f - -C /var/www/twitter_elixir/releases/20170114224611 )
+ DEBUG [6ca177cc] 	fatal: Not a valid object name
+ DEBUG [6ca177cc] 	tar: 
+ DEBUG [6ca177cc] 	This does not look like a tar archive
+ DEBUG [6ca177cc] 	
+ DEBUG [6ca177cc] 	tar: 
+ DEBUG [6ca177cc] 	Exiting with failure status due to previous errors
+ DEBUG [6ca177cc] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:47:14 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cd39edb6] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [cd39edb6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cd39edb6] Finished in 0.705 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [a4da4b26] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [a4da4b26] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [a4da4b26] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [d03be1da] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [d03be1da] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [d03be1da] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [d03be1da] Finished in 1.757 seconds with exit status 0 (successful).
+  INFO [a2870a55] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [a2870a55] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [a2870a55] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [32c76622] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [32c76622] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [32c76622] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [85623109] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [85623109] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [85623109] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [abb47b5a] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [abb47b5a] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [abb47b5a] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [cacb508d] Running git ls-files Dockerfile as bartoszlecki@localhost
+ DEBUG [cacb508d] Command: git ls-files Dockerfile
+ DEBUG [cacb508d] 	Dockerfile
+ DEBUG [cacb508d] Finished in 0.009 seconds with exit status 0 (successful).
+ DEBUG [e561bf38] Running [ -f /var/www/twitter_elixir/current/REVISION ] as root@bartlecki.pl
+ DEBUG [e561bf38] Command: [ -f /var/www/twitter_elixir/current/REVISION ]
+ DEBUG [e561bf38] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [802205d8] Running [ -f /var/www/twitter_elixir/repo/HEAD ] as root@bartlecki.pl
+ DEBUG [802205d8] Command: [ -f /var/www/twitter_elixir/repo/HEAD ]
+ DEBUG [802205d8] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/twitter_elixir/repo
+ DEBUG [733dad5b] Running if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi as root@bartlecki.pl
+ DEBUG [733dad5b] Command: if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi
+ DEBUG [733dad5b] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [d725eb25] Running /usr/bin/env git remote update --prune as root@bartlecki.pl
+ DEBUG [d725eb25] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d725eb25] 	Fetching origin
+  INFO [d725eb25] Finished in 1.267 seconds with exit status 0 (successful).
+ DEBUG [cb480ef1] Running if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi as root@bartlecki.pl
+ DEBUG [cb480ef1] Command: if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi
+ DEBUG [cb480ef1] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [7a3de115] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/releases/20170114224718 as root@bartlecki.pl
+ DEBUG [7a3de115] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env mkdir -p /var/www/twitter_elixir/releases/20170114224718 )
+  INFO [7a3de115] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [fed7ac82] Running /usr/bin/env git archive prod-deployment | /usr/bin/env tar -x -f - -C /var/www/twitter_elixir/releases/20170114224718 as root@bartlecki.pl
+ DEBUG [fed7ac82] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git archive prod-deployment | /usr/bin/env tar -x -f - -C /var/www/twitter_elixir/releases/20170114224718 )
+ DEBUG [fed7ac82] 	fatal: Not a valid object name
+ DEBUG [fed7ac82] 	tar: 
+ DEBUG [fed7ac82] 	This does not look like a tar archive
+ DEBUG [fed7ac82] 	
+ DEBUG [fed7ac82] 	tar: 
+ DEBUG [fed7ac82] 	Exiting with failure status due to previous errors
+ DEBUG [fed7ac82] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-14 23:49:45 +0100 cap prod deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1a98d017] Running /usr/bin/env mkdir -p /tmp as root@bartlecki.pl
+ DEBUG [1a98d017] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1a98d017] Finished in 0.609 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 0.0%
+  INFO Uploading /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh 100.0%
+  INFO [cac08766] Running /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh as root@bartlecki.pl
+ DEBUG [cac08766] Command: /usr/bin/env chmod 700 /tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh
+  INFO [cac08766] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [fb026da8] Running /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git as root@bartlecki.pl
+ DEBUG [fb026da8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git ls-remote --heads git@github.com:azranel/cap-deploy-test.git )
+ DEBUG [fb026da8] 	7f81a6e59ad2d3ef3f83d8140c7aefdbb68ffd69	refs/heads/master
+  INFO [fb026da8] Finished in 1.776 seconds with exit status 0 (successful).
+  INFO [150ad23b] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases as root@bartlecki.pl
+ DEBUG [150ad23b] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared /var/www/twitter_elixir/releases
+  INFO [150ad23b] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [5e0c4208] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [5e0c4208] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/log /var/www/twitter_elixir/shared/config
+  INFO [5e0c4208] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [8bd3a26f] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config as root@bartlecki.pl
+ DEBUG [8bd3a26f] Command: /usr/bin/env mkdir -p /var/www/twitter_elixir/shared/config
+  INFO [8bd3a26f] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [e292bb01] Running [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ] as root@bartlecki.pl
+ DEBUG [e292bb01] Command: [ -f /var/www/twitter_elixir/shared/config/prod.secret.exs ]
+ DEBUG [e292bb01] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [b64c6bfe] Running git ls-files Dockerfile as bartoszlecki@localhost
+ DEBUG [b64c6bfe] Command: git ls-files Dockerfile
+ DEBUG [b64c6bfe] 	Dockerfile
+ DEBUG [b64c6bfe] Finished in 0.009 seconds with exit status 0 (successful).
+ DEBUG [432fe1c0] Running [ -f /var/www/twitter_elixir/current/REVISION ] as root@bartlecki.pl
+ DEBUG [432fe1c0] Command: [ -f /var/www/twitter_elixir/current/REVISION ]
+ DEBUG [432fe1c0] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [261f3f27] Running [ -f /var/www/twitter_elixir/repo/HEAD ] as root@bartlecki.pl
+ DEBUG [261f3f27] Command: [ -f /var/www/twitter_elixir/repo/HEAD ]
+ DEBUG [261f3f27] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/twitter_elixir/repo
+ DEBUG [72ae0861] Running if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi as root@bartlecki.pl
+ DEBUG [72ae0861] Command: if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi
+ DEBUG [72ae0861] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [3debdb62] Running /usr/bin/env git remote update --prune as root@bartlecki.pl
+ DEBUG [3debdb62] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [3debdb62] 	Fetching origin
+  INFO [3debdb62] Finished in 1.260 seconds with exit status 0 (successful).
+ DEBUG [ffb60984] Running if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi as root@bartlecki.pl
+ DEBUG [ffb60984] Command: if test ! -d /var/www/twitter_elixir/repo; then echo "Directory does not exist '/var/www/twitter_elixir/repo'" 1>&2; false; fi
+ DEBUG [ffb60984] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [f4978fe0] Running /usr/bin/env mkdir -p /var/www/twitter_elixir/releases/20170114224949 as root@bartlecki.pl
+ DEBUG [f4978fe0] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env mkdir -p /var/www/twitter_elixir/releases/20170114224949 )
+  INFO [f4978fe0] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [f99869fe] Running /usr/bin/env git archive prod-deployment | /usr/bin/env tar -x -f - -C /var/www/twitter_elixir/releases/20170114224949 as root@bartlecki.pl
+ DEBUG [f99869fe] Command: cd /var/www/twitter_elixir/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-twitter_elixir-prod-bartoszlecki.sh" ; /usr/bin/env git archive prod-deployment | /usr/bin/env tar -x -f - -C /var/www/twitter_elixir/releases/20170114224949 )
+ DEBUG [f99869fe] 	fatal: Not a valid object name
+ DEBUG [f99869fe] 	tar: 
+ DEBUG [f99869fe] 	This does not look like a tar archive
+ DEBUG [f99869fe] 	
+ DEBUG [f99869fe] 	tar: 
+ DEBUG [f99869fe] 	Exiting with failure status due to previous errors
+ DEBUG [f99869fe] 	
