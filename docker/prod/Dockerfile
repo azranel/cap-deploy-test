@@ -11,18 +11,11 @@ ADD . $APP_HOME
 RUN apt-get update
 RUN apt-get install -y postgresql-client
 
-RUN pwd
-RUN ls -l
 RUN ls -l config/
-RUN cat config/prod.secret.exs
-RUN ls -l /var/www
 
-
-# RUN mix local.hex --force
-# RUN mix local.rebar --force
-RUN mix deps.get --only-prod
-RUN mix phoenix.digest
-RUN mix compile --no-debug-info
-RUN mix compile.protocols
+# RUN mix deps.get --only-prod
+# RUN mix phoenix.digest
+# RUN mix compile --no-debug-info
+# RUN mix compile.protocols
 
 EXPOSE 4000
