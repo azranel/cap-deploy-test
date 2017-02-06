@@ -13,6 +13,7 @@ RUN apt-get install -y postgresql-client
 
 RUN ls -l config/
 
+RUN mix local.hex --force
 RUN mix deps.get --only-prod
 RUN mix phoenix.digest
 RUN mix compile --no-debug-info
