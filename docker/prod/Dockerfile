@@ -13,9 +13,9 @@ RUN apt-get install -y postgresql-client
 
 RUN ls -l config/
 
-# RUN mix deps.get --only-prod
-# RUN mix phoenix.digest
-# RUN mix compile --no-debug-info
-# RUN mix compile.protocols
+RUN mix deps.get --only-prod
+RUN mix phoenix.digest
+RUN mix compile --no-debug-info
+RUN mix compile.protocols
 
 EXPOSE 4000

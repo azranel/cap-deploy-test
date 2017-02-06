@@ -58,4 +58,11 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
-import_config "prod.secret.exs"
+config :twitter, Twitter.Endpoint,
+  secret_key_base: "J9oB+khJW1DXd0X0NXohYa9w2oZw/Ix1KTeD/0zotktKdBpfDcTK8QcSdmEMv+zU"
+
+# Configure your database
+config :twitter, Twitter.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  database: "twitter_prod",
+  pool_size: 20
