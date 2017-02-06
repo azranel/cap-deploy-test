@@ -21,3 +21,5 @@ RUN mix compile --no-debug-info
 RUN mix compile.protocols
 
 EXPOSE 4000
+
+CMD ["mix", "phoenix.server"]
